@@ -1,0 +1,56 @@
+[
+    {
+      "id": 1,
+      "name": "The WeatherApp",
+      "image":
+        "weather.png",
+      "occupation": "An Easy Way to Search for Weather Conditions By City",
+      "github": "https://github.com/TomCapers/weatherApp"
+      
+    },
+    {
+      "id": 2,
+      "name": "TechBlog",
+      "image":
+        "blog.png",
+      "occupation": "An Application To Post And Comment On Tech Blogs",
+      "github": "https://github.com/TomCapers/techBlog"
+      
+    },
+    {
+      "id": 3,
+      "name": "TeamTracker",
+      "image":
+        "team.png",
+      "occupation": "A Node.js Command Line Application That Generates A Webpage Of Employee Data",
+      "github": "https://github.com/TomCapers/teamTracker"
+      
+    },
+    {
+        "id": 3,
+        "name": "SyntaxTrainer",
+        "image":
+          "syntax.png",
+        "occupation": "A Typewriting Training App To Practice Coding",
+        "github": "https://github.com/go-yasi/syntax-trainer"
+        
+      },
+      {
+        "id": 3,
+        "name": "WikiHive",
+        "image":
+          "wiki.png",
+        "occupation": "An App To Discover And Share Wikis",
+        "github":"https://github.com/Lilliemefie/WikisHub"
+        
+      },
+      {
+        "id": 3,
+        "name": "RoadTrip",
+        "image":
+          "road.png",
+        "occupation": "An App To Plan A Road Trip with API's For Points Of Interest",
+        "github": "https://github.com/henryparras24/roadtrip"
+        
+      }
+  ]
