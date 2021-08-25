@@ -1,23 +1,31 @@
-import React, {Component} from "react";
+import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Header from "./components/Header";
 import Project from "./components/Project";
 import Wrapper from "./components/Wrapper";
 import Footer from "./components/Footer";
-import projects from "./projects.json"
+import projects from "./projects.json";
+import About from "./components/pages/About";
+import Contact from "./components/pages/Contact";
+import Resume from "./components/pages/Resume";
+import Projects from "./components/pages/Projects";
+
 
 
 
 function App() {
   return (
-   
+   <Router>
       <div>
       <Header/>
-    
-        <div id="about-me">
-        <h2>About Me</h2>
-          <p>Experienced financial services professional and UCLA Coding Boot Camp graduate motivated to build a career in the web development industry. Highly organized, results oriented professional with talent for balancing production needs with customer service and efficiency. Recognized for ability to lead and guide operating units while increasing technical expertise, skills and knowledge of staff. Excels at learning and applying new skills in fast paced and demanding environments. Strong team player that is also able to work independently on projects.</p>
-        </div>
+      <Route exact path="/" component={Projects} />
+        <Route exact path="/about" component={About} />
+        <Route exact path="/contact" component={Contact} />
+        <Route path="/resume" component={Resume} />
+        
+
+
+{/*         
         <h2>Recent Projects</h2>
 
         <Wrapper>
@@ -57,10 +65,10 @@ function App() {
       occupation={projects[5].occupation}
       github={projects[5].github}
       />
-    </Wrapper>
+    </Wrapper> */}
       <Footer/>
       </div>
-    
+      </Router>
   );
 }
 
