@@ -1,13 +1,14 @@
 header {
   padding: 20px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  background-color: #10a2eb;
+  background-image: linear-gradient(180deg, rgba(102, 127, 128, 0.897), rgb(216, 221, 221));
   color: #ffffff;
   }    
 
 h1 {
       display: inline-block;
       font-size: 48px;
+      text-align: center;
 }
 
 nav {

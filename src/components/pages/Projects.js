@@ -5,8 +5,10 @@ import projects from "../../projects.json";
 
 function Projects() {
     return (
-        <div>
+        <div className="back">
+            <div className="title">
              <h2>Recent Projects</h2>
+             </div>
 
 <Wrapper>
 <Project

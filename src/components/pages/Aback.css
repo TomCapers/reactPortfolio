@@ -1,0 +1,37 @@
+#about-me {
+    background-image: url(../../styles/top2.jpg);
+    background-size: cover;
+    height: 700px;
+    color: #ffffff;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    
+  }
+
+  #resume {
+    background-image: url(../../styles/top2.jpg);
+    background-size: cover;
+    height: 700px;
+    color: #ffffff;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    
+  }
+
+  #contact {
+    background-image: url(../../styles/top2.jpg);
+    background-size: cover;
+    height: 700px;
+    color: #ffffff;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    
+  }
+
+ 

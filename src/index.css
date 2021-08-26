@@ -8,3 +8,18 @@ html, body, #root {
   margin: 0;
   height: 100%;
 }
+
+.title {
+  text-align: center;
+  margin: auto;
+  width: 100%;
+  color: #ffffff;
+  padding: 10px;
+  
+}
+
+.back {
+  background-image: url(./styles/bench3.jpg);
+  background-size: cover;
+  
+}

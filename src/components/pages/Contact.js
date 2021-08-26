@@ -1,13 +1,13 @@
 import React from "react";
+import "./Aback.css";
 
 function Contact() {
     return (
-        <div>
-            <h1>Contact Page</h1>
-            <p>This is my name</p>
-            <p>This is my email</p>
-            <p>This is my LinkedIn</p>
-            <p>This is my GitHub</p>
+        <div id="contact">
+            <h1>Contact Me</h1>
+            <p>EMAIL: <a href= "mailto: tompcapers@gmail.com" style={{color: "white"}}>tompcapers@gmail.com</a></p>
+            <p>LinkedIn: <a href= "https://www.linkedin.com/in/tom-capers-a0688711/" style={{color: "white"}}>www.linkedin.com/in/tomcapers</a></p>
+            <p>GitHub: <a href= "https://github.com/TomCapers" style={{color: "white"}}>https://github.com/TomCapers</a></p>
         </div>
     );
 }

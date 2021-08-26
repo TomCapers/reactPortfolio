@@ -1,16 +1,19 @@
 import React from "react";
 import "../styles/Footer.css";
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { FaRegEnvelope } from "react-icons/fa";
 
 function Footer() {
     return (
         <div>
         <footer id="contact-me">
-        <h2>Contact Me</h2>
+        <h5>Find Me Here</h5>
         <image src="Capture.png" alt="my picture"></image>
             <ul>
-                <li><a href= "mailto: tompcapers@gmail.com">Email</a></li>
-                <li><a href= "https://www.linkedin.com/in/tom-capers-a0688711/">LinkedIn</a></li>
-                <li><a href= "https://github.com/TomCapers">GitHub Profile</a></li>
+                <li><a href= "mailto: tompcapers@gmail.com"><FaRegEnvelope /></a></li>
+                <li><a href= "https://www.linkedin.com/in/tom-capers-a0688711/"><FaLinkedin /></a></li>
+                <li><a href= "https://github.com/TomCapers"><FaGithub /></a></li>
             </ul>
     </footer>
     </div>
