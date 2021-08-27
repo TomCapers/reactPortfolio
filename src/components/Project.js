@@ -2,6 +2,7 @@ import React from "react";
 import "../styles/Project.css";
 
 function Project(props) {
+  
     return (
         <div className="card" id="projects">
         <div className="img-container">
@@ -17,6 +18,9 @@ function Project(props) {
             </li>
             <li>
                <a href={props.github}>GitHub Link</a>
+            </li>
+            <li>
+               <a href={props.deploy}>Deployed Link</a>
             </li>
             
           </ul>

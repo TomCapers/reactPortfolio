@@ -6,6 +6,7 @@ import About from "./components/pages/About";
 import Contact from "./components/pages/Contact";
 import Resume from "./components/pages/Resume";
 import Projects from "./components/pages/Projects";
+import Deploy from "./components/pages/Deploy";
 
 
 
@@ -18,7 +19,8 @@ function App() {
         <Route exact path="/" component={Projects} />
         <Route exact path="/about" component={About} />
         <Route exact path="/contact" component={Contact} />
-        <Route path="/resume" component={Resume} />
+        <Route exact path="/resume" component={Resume} />
+        <Route exact path="/deploy" component={Deploy} />
       <Footer/>
       </div>
     </Router>

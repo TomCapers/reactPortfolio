@@ -1,20 +1,22 @@
 [
-    {
-      "id": 1,
-      "name": "The WeatherApp",
-      "image":
-        "weather.png",
-      "occupation": "An Easy Way to Search for Weather Conditions By City",
-      "github": "https://github.com/TomCapers/weatherApp"
-      
-    },
-    {
+  {
+    "id": 1,
+    "name": "SyntaxTrainer",
+    "image":
+      "syntax.png",
+    "occupation": "A Typewriting Training App To Practice Coding",
+    "github": "https://github.com/TomCapers/syntax-trainer",
+    "deploy": "https://syntax-trainer.herokuapp.com/"
+    
+  },  
+  {
       "id": 2,
       "name": "TechBlog",
       "image":
         "blog.png",
       "occupation": "An Application To Post And Comment On Tech Blogs",
-      "github": "https://github.com/TomCapers/techBlog"
+      "github": "https://github.com/TomCapers/techBlog",
+      "deploy": "https://shrouded-cove-75044.herokuapp.com/"
       
     },
     {
@@ -23,34 +25,38 @@
       "image":
         "team.png",
       "occupation": "A Node.js Command Line Application That Generates A Webpage Of Employee Data",
-      "github": "https://github.com/TomCapers/teamTracker"
+      "github": "https://github.com/TomCapers/teamTracker",
+      "deploy": "/deploy"
       
     },
     {
-        "id": 3,
-        "name": "SyntaxTrainer",
-        "image":
-          "syntax.png",
-        "occupation": "A Typewriting Training App To Practice Coding",
-        "github": "https://github.com/go-yasi/syntax-trainer"
-        
-      },
+      "id": 4,
+      "name": "The WeatherApp",
+      "image":
+        "weather.png",
+      "occupation": "An Easy Way to Search for Weather Conditions By City",
+      "github": "https://github.com/TomCapers/weatherApp",
+      "deploy": "/deploy"
+      
+    },
       {
-        "id": 3,
+        "id": 5,
         "name": "WikiHive",
         "image":
           "wiki.png",
         "occupation": "An App To Discover And Share Wikis",
-        "github":"https://github.com/Lilliemefie/WikisHub"
+        "github":"https://github.com/TomCapers/WikisHub",
+        "deploy": "https://remembrance-lumberjack-47538.herokuapp.com/"
         
       },
       {
-        "id": 3,
-        "name": "RoadTrip",
+        "id": 6,
+        "name": "eCommerce Back End",
         "image":
-          "road.png",
-        "occupation": "An App To Plan A Road Trip with API's For Points Of Interest",
-        "github": "https://github.com/henryparras24/roadtrip"
+          "ecomm.png",
+        "occupation": "An App That Uses API Routes To Update A MySQL Database",
+        "github": "https://github.com/TomCapers/eCommerceApp",
+        "deploy": "/deploy"
         
       }
   ]
